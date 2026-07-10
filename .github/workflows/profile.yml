@@ -1,0 +1,53 @@
+name: Refresh profile signal
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/profile.yml"
+      - "scripts/render-profile.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v7
+
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Render the profile artwork
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/render-profile.mjs
+
+      - name: Publish changed artwork
+        run: |
+          git add assets
+
+          if git diff --cached --quiet; then
+            echo "Profile signal is already current."
+            exit 0
+          fi
+
+          git config user.name "Justinidlerz"
+          git config user.email "zqc.sunny@gmail.com"
+          git commit -m "chore: refresh profile signal"
+          git push

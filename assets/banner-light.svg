@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450" role="img">
+  <title>Technical route map for Justinidlerz</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; letter-spacing: 0; }
+    .display { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 35px; font-weight: 750; }
+    .body-sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 15px; }
+    .micro { font-size: 11px; font-weight: 700; }
+    .station { font-size: 12px; font-weight: 800; }
+    @media (prefers-reduced-motion: reduce) { animate { display: none; } }
+  </style>
+  <rect width="960" height="450" fill="#f7f8fa"/>
+
+    <rect width="960" height="450" rx="18" fill="#f7f8fa"/>
+    <text x="40" y="34" class="micro" fill="#667085">JUSTINIDLERZ / ROUTE MAP / 12 YEARS</text>
+    <text x="40" y="82" class="display" fill="#172033">This should take five minutes.</text>
+    <text x="40" y="112" class="body-sans" fill="#667085">A frontend task, reconstructed from 12 years of public commits.</text>
+    <text x="920" y="34" text-anchor="end" class="micro" fill="#c13c73">CAFFEINATED · 17 PULSES / 7D</text>
+
+    <path d="M70 200H180" fill="none" stroke="#008ea1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M180 200C230 200 245 260 295 260" fill="none" stroke="#c13c73" stroke-width="8"/>
+    <path d="M295 260H410" fill="none" stroke="#b36b00" stroke-width="8"/>
+    <path d="M410 260C460 260 475 200 525 200" fill="none" stroke="#218739" stroke-width="8"/>
+    <path d="M525 200H640" fill="none" stroke="#008ea1" stroke-width="8"/>
+    <path d="M640 200C690 200 705 260 755 260" fill="none" stroke="#c13c73" stroke-width="8"/>
+    <path d="M755 260H875" fill="none" stroke="#c13c73" stroke-width="8" stroke-linecap="round"/>
+
+        <circle cx="70" cy="200" r="10" fill="#f7f8fa" stroke="#008ea1" stroke-width="4"/>
+        <text x="70" y="162" text-anchor="middle" class="station" fill="#172033">UI</text>
+        <text x="70" y="143" text-anchor="middle" class="micro" fill="#667085">2015</text>
+        <circle cx="180" cy="200" r="10" fill="#f7f8fa" stroke="#008ea1" stroke-width="4"/>
+        <text x="180" y="162" text-anchor="middle" class="station" fill="#172033">BUNDLERS</text>
+        <text x="180" y="143" text-anchor="middle" class="micro" fill="#667085">2016</text>
+        <circle cx="295" cy="260" r="10" fill="#f7f8fa" stroke="#c13c73" stroke-width="4"/>
+        <text x="295" y="303" text-anchor="middle" class="station" fill="#172033">AUTOMATION</text>
+        <text x="295" y="322" text-anchor="middle" class="micro" fill="#667085">2018</text>
+        <circle cx="410" cy="260" r="10" fill="#f7f8fa" stroke="#b36b00" stroke-width="4"/>
+        <text x="410" y="303" text-anchor="middle" class="station" fill="#172033">APIs</text>
+        <text x="410" y="322" text-anchor="middle" class="micro" fill="#667085">2020</text>
+        <circle cx="525" cy="200" r="10" fill="#f7f8fa" stroke="#218739" stroke-width="4"/>
+        <text x="525" y="162" text-anchor="middle" class="station" fill="#172033">SSR + ISLANDS</text>
+        <text x="525" y="143" text-anchor="middle" class="micro" fill="#667085">2022</text>
+        <circle cx="640" cy="200" r="10" fill="#f7f8fa" stroke="#008ea1" stroke-width="4"/>
+        <text x="640" y="162" text-anchor="middle" class="station" fill="#172033">ESM</text>
+        <text x="640" y="143" text-anchor="middle" class="micro" fill="#667085">2023</text>
+        <circle cx="755" cy="260" r="10" fill="#f7f8fa" stroke="#c13c73" stroke-width="4"/>
+        <text x="755" y="303" text-anchor="middle" class="station" fill="#172033">AST</text>
+        <text x="755" y="322" text-anchor="middle" class="micro" fill="#667085">2024</text><circle cx="875" cy="260" r="18" fill="none" stroke="#c13c73" opacity="0.65"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="2.2s" repeatCount="indefinite"/></circle>
+        <circle cx="875" cy="260" r="10" fill="#f7f8fa" stroke="#c13c73" stroke-width="4"/>
+        <text x="875" y="303" text-anchor="middle" class="station" fill="#172033">RUST + WASM</text>
+        <text x="875" y="322" text-anchor="middle" class="micro" fill="#667085">NOW</text>
+    <path d="M875 229v-23h-86" fill="none" stroke="#c13c73" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <text x="781" y="202" text-anchor="end" class="micro" fill="#c13c73">YOU ARE HERE</text>
+
+    <line x1="40" y1="330" x2="920" y2="330" stroke="#d9dee7"/>
+    <text x="40" y="352" class="micro" fill="#667085">RECENT SIGNAL / 52 WEEKS</text>
+    <text x="920" y="352" text-anchor="end" class="micro" fill="#667085">CURRENT GRAVITY · RUST + TYPESCRIPT</text>
+    <rect x="40" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="57" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="74" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="91" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="108" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="125" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="142" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="159" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="176" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="193" y="395" width="11" height="5" rx="3" fill="#218739"><title>7 contributions</title></rect><rect x="210" y="385" width="11" height="15" rx="3" fill="#218739"><title>28 contributions</title></rect><rect x="227" y="380" width="11" height="20" rx="3" fill="#218739"><title>37 contributions</title></rect><rect x="244" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="261" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="278" y="387" width="11" height="13" rx="3" fill="#218739"><title>25 contributions</title></rect><rect x="295" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="312" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="329" y="395" width="11" height="5" rx="3" fill="#218739"><title>3 contributions</title></rect><rect x="346" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="363" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="380" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="397" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="414" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="431" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="448" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="465" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="482" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="499" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="516" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="533" y="395" width="11" height="5" rx="3" fill="#218739"><title>4 contributions</title></rect><rect x="550" y="395" width="11" height="5" rx="3" fill="#218739"><title>4 contributions</title></rect><rect x="567" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="584" y="391" width="11" height="9" rx="3" fill="#218739"><title>17 contributions</title></rect><rect x="601" y="387" width="11" height="13" rx="3" fill="#218739"><title>24 contributions</title></rect><rect x="618" y="360" width="11" height="40" rx="3" fill="#218739"><title>75 contributions</title></rect><rect x="635" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="652" y="391" width="11" height="9" rx="3" fill="#218739"><title>16 contributions</title></rect><rect x="669" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="686" y="389" width="11" height="11" rx="3" fill="#218739"><title>20 contributions</title></rect><rect x="703" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="720" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="737" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="754" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="771" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="788" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="805" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="822" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="839" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="856" y="395" width="11" height="5" rx="3" fill="#218739"><title>1 contributions</title></rect><rect x="873" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="890" y="397" width="11" height="3" rx="3" fill="#e5e8ed"><title>0 contributions</title></rect><rect x="907" y="391" width="11" height="9" rx="3" fill="#c13c73"><title>17 contributions</title><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></rect>
+    <text x="40" y="430" class="micro" fill="#667085">START: “ONE TINY FIX”</text>
+    <text x="920" y="430" text-anchor="end" class="micro" fill="#c13c73">NEXT STOP: PROBABLY ANOTHER TINY FIX</text>
+
+</svg>
